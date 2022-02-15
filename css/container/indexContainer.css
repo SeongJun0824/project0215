@@ -22,7 +22,7 @@
 }
 .container .inner-container .index .sections .section.sec1 .sec-con .gallery{
     width: 100%;
-    height: 36vw;
+    height: 500px;
     position: relative;
 }
 .container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul{
@@ -143,6 +143,12 @@
         justify-content: center;
     }
     .container .inner-container .index .sections .section.sec2 .sec-con>ul>li{
+        flex: 0 1 99%;
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con>ul>li:nth-child(7){
+        flex: 0 1 99%;
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con>ul>li:nth-child(8){
         flex: 0 1 99%;
     }
 }
