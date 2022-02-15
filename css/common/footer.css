@@ -18,6 +18,7 @@
     color: inherit;
     background-color: inherit;
     font-size: 25px;
+    text-decoration: underline;
 }
 .footer .inner-footer .fcon a:hover{
     color: rgb(0, 161, 0);
